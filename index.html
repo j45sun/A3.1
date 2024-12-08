@@ -147,6 +147,56 @@
       border-radius: 21px;
     }   
     
+    #blockE {
+      width: 100%;
+      height: 200px;
+      position: relative; /* Stacks #blockE in the normal flow below #blockC */
+      top: 178px;  /* Ensures it appears below blockC (136px height + extra spacing) */
+      background-color: red;
+      opacity: 0.2;
+       display: flex; /* Use flexbox for centering */
+      align-items: center; /* Vertically center the text */
+      justify-content: center; /* Horizontally center the text */
+      flex-direction: column; /* Ensures content stacks vertically */
+      text-align: center;
+    }
+    
+    #blockE h4 {
+      margin-top: -20px;
+    }
+    
+     #blockF {
+      width: 100%;
+      height: 800px;
+      position: relative;
+      top: 178px;
+      background-color: green;
+      opacity: 0.2;
+    }
+    
+    #blockF1 {
+       background-color: #96C5F7;
+      width: 486px;
+      height: 7005px;
+      position: relative;
+      display: inline;
+      float: left;
+      left: 200px;
+      top: 50px;
+       margin-right: 140px;
+    } 
+    
+      #blockF2 {
+      background-color: #96C5F7;
+      width: 486px;
+      height: 7005px;
+      position: relative;
+      display: inline;
+      float: left;
+      left: 200px;
+      top: 50px;
+       margin-right: 140px;
+    } 
     
     
    </style>
@@ -158,9 +208,25 @@
     <h4>FREE SHIPPING FOR ORDERS OVER $150!</h4>
   </div>
   
- 
+   <div id="blockE">
+      <h3>
+        NEW ARRIVALS
+      </h3> <br>
+      <h4>
+        Introducing coasters, our latest addition to home decor. Crafted with sustainable <br> materials and designed with colourful shapes and patterns, our coasters are designed to mix and match seamlessly into any setting. 
+      </h4>
+  </div>
+  
+  <div id="blockF">
+    <div id="blockF1"> 
+    </div>
+     <div id="blockF2"> 
+    </div>
+  </div>
   
   <div id="blockB">
+    <div id="blockD">
+    </div>
     <h1><a href="https://j45sun.github.io/A3/">XENIA TALER</a></h1>
   </div>
     
@@ -175,9 +241,7 @@
       <li><a href="#SUPPORT">SUPPORT</a></li>
     </ul>
   </div>
-
-  <div id="blockD">
-  </div>
+  
     
 </body>
 
