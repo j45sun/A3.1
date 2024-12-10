@@ -24,7 +24,8 @@
       padding: 0;
       width: 100%;
       height: 100%;
-      box-sizing: border-box; /* cite this */
+      background-color: white;
+      box-sizing: border-box;
     }
     
     h1 {font-family: DM Sans;
@@ -75,10 +76,9 @@
       overflow: hidden;
       background-color: transparent;
       position: absolute;
-        
-      display: flex; /* Use flexbox to align list items horizontally */
-      margin: 0; /* Remove default margin */
-      padding: 0; /* Remove default padding */;  
+      display: flex; 
+      margin: 0; 
+      padding: 0; 
     }
 
     li {
@@ -104,22 +104,22 @@
       opacity: 1;
     }
       
-    #blockA {
+    #blockA { /* top yellow box */
       width: 100%;
       height: 42px;
       background-color: #F9D788;
       position: fixed;
       display: flex;
       align-items: center; 
-      justify-content: center; /* cite this */
-      z-index: 1000; /*cite this*/
+      justify-content: center; 
+      z-index: 1000; 
     }
     
      #blockA h4 {
       color: #5F3B25;
     }
     
-    #blockB {
+    #blockB { /* Second box below yellow box */ 
       width: 100%;
       height: 94px;
       background-color: white;
@@ -146,7 +146,7 @@
       color: #6C6B6B;
     }
     
-    #blockC {
+    #blockC { /* navigation bar */
       width: 100%;
       height: 30px;
       background-color: white;
@@ -160,7 +160,7 @@
       /*cite this*/
     }
     
-    #blockD {
+    #blockD { /* search bar */ 
       width: 700px;
       height: 42px;
       background-color: #F1F1F1;
@@ -180,15 +180,16 @@
       color: #999999;
     } 
     
-    #blockE {
+    #blockE { /* new arrivals text */ 
       width: 100%;
       height: 200px;
-      position: relative; /* Stacks #blockE in the normal flow below #blockC */
-      top: 178px;  /* Ensures it appears below blockC (136px height + extra spacing) */
-      display: flex; /* Use flexbox for centering */
-      align-items: center; /* Vertically center the text */
-      justify-content: center; /* Horizontally center the text */
-      flex-direction: column; /* Ensures content stacks vertically */
+      background-color: white;
+      position: relative;
+      top: 178px; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      flex-direction: column; 
       text-align: center;
     }
     
@@ -196,7 +197,7 @@
       margin-top: -20px;
     }
     
-    #blockF {
+    #blockF { /* images block */ 
       width: 100%;
       height: 850px;
       position: relative;
